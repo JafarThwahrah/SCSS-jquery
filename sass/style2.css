@@ -1,0 +1,86 @@
+body {
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+
+.firstSection {
+  display: flex;
+  justify-content: space-around;
+}
+.firstSection .paregraph {
+  width: 45rem;
+}
+.firstSection .sliderSection {
+  position: relative;
+  width: 18rem;
+}
+.firstSection .sliderSection .taps {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.firstSection .sliderSection .taps .imageAndTap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.firstSection .sliderSection .taps .imageAndTap .gamingImage {
+  width: 34px;
+  height: 31px;
+  filter: grayscale(100%);
+}
+.firstSection .sliderSection .taps .imageAndTap .gamingImage:hover {
+  cursor: pointer;
+  filter: invert(50%) sepia(79%) saturate(2476%) hue-rotate(0deg) brightness(100%) contrast(119%);
+}
+.firstSection .sliderSection .taps .imageAndTap .gamingImage:active {
+  filter: invert(50%) sepia(79%) saturate(2476%) hue-rotate(0deg) brightness(100%) contrast(119%);
+}
+.firstSection .sliderSection .taps .imageAndTap .singleTap {
+  margin: 0.5rem;
+}
+.firstSection .sliderSection .numOfSuvSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.firstSection .sliderSection .numOfSuvSection .numOfh4 {
+  color: #ff7900;
+  font-size: 14px;
+  font-weight: bold;
+}
+.firstSection .sliderSection .numOfSuvSection .counter {
+  color: #CECBCB;
+}
+.firstSection .sliderSection .numOfSuvSection .buttonsub {
+  background: #F16E00 0% 0% no-repeat padding-box;
+  width: 176px;
+  height: 46px;
+  border-radius: 5px;
+  opacity: 1;
+  border: none;
+}
+.firstSection .sliderSection .numOfSuvSection .buttonsub .subNow {
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.phoneImage {
+  position: absolute;
+  z-index: -10;
+  width: 20rem;
+  height: 40rem;
+}
+
+.sliderContent {
+  margin-left: 2rem;
+  margin-top: 3rem;
+}
+
+.divider {
+  border: 4px solid #EDEBEB;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}/*# sourceMappingURL=style2.css.map */

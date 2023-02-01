@@ -1,0 +1,110 @@
+body {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+
+
+    .paregraph {
+        width: 45rem;
+    }
+
+    // width: rem;
+    .sliderSection {
+        // margin-top: -10rem;
+
+        position: relative;
+        width: 18rem;
+        .taps {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+            .imageAndTap {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                .gamingImage {
+                    width: 34px;
+                    height: 31px;
+                    filter: grayscale(100%);
+
+                    &:hover{
+                        cursor: pointer;
+                        filter: invert(50%) sepia(79%) saturate(2476%) hue-rotate(0deg) brightness(100%) contrast(119%);
+                    }
+                    &:active{
+                        filter: invert(50%) sepia(79%) saturate(2476%) hue-rotate(0deg) brightness(100%) contrast(119%);
+
+
+                    }
+                }
+
+                .singleTap {
+                    margin: .5rem;
+                }
+
+            }
+
+        }
+
+        .numOfSuvSection {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+
+            .numOfh4 {
+                color: #ff7900;
+                font-size: 14px;
+                font-weight: bold;
+            }
+
+            .counter {
+                color: #CECBCB;
+            }
+
+            .buttonsub {
+                background: #F16E00 0% 0% no-repeat padding-box;
+                width: 176px;
+                height: 46px;
+                border-radius: 5px;
+                opacity: 1;
+                border: none;
+
+
+                .subNow {
+                    color: #ffff;
+                    font-size: 17px;
+                    font-weight: bold;
+                }
+
+            }
+        }
+    }
+}
+
+.phoneImage{
+    position: absolute;
+    z-index: -10;
+    width: 20rem;
+    height: 40rem;
+
+}
+.sliderContent{
+    margin-left: 2rem;
+    margin-top: 3rem;
+}
+
+.divider{
+    border: 4px solid #EDEBEB;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
